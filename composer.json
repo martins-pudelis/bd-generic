@@ -1,0 +1,23 @@
+{
+    "name": "bd/bd-generic",
+    "type": "library",
+    "description": "Module for Bd, which contains reusable code for all other bd modules",
+    "keywords": ["bd", "generic"],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Martins Pudelis",
+            "email": "martins.pudelis@wallcity.lv"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "BdGeneric": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
